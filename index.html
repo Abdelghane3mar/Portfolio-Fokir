@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="assuts/css/external/all.min.css" />
+    <link rel="stylesheet" href="assuts/css/style.css" />
+    <title>Fokir</title>
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <div class="container">
+        <div class="row">
+          <div class="nav-logo">
+            <a href="index.html"> Fokir </a>
+          </div>
+
+          <div class="nav-toggle">
+            <i id="listToggle" class="fa-solid fa-bars-staggered"></i>
+          </div>
+
+          <div id="list"  class="nav-list d-none" >
+            <ul>
+              <li><a class="links active"  href="#home">Home</a></li>
+              <li><a class="links"  href="#about">About</a></li>
+              <li><a class="links"  href="#our-service">Services</a></li>
+              <li><a class="links"  href="#portfolio">Portfolio</a></li>
+              <li><a class="links"  href="#feedback">Testimonial</a></li>
+              <li><a class="links"  href="#blogs">Blog</a></li>
+              <li><a class="links"  href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- //////////////// header //////////////// -->
+    <section id="home">
+      <div class="layer">
+        <div class="header-content">
+          <span>Hello i'm</span>
+          <h1>alex smith</h1>
+          <p id="element" ></p>
+        </div>
+      </div>
+    </section>
+    <!-- //////////////// Section  About //////////////// -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-img">
+            <img src="assuts/images/about-img.jpg" alt="About" />
+            <div class="overlay">
+              <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="about-content">
+            <h2>HELLO,</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="container">
+                <div class="row">
+                  <ul>
+                    <li>
+                      <span>Name :</span>
+                      Rdam smith
+                    </li>
+
+                    <li>
+                      <span>Age :</span>
+                      26 Year
+                    </li>
+
+                    <li>
+                      <span>Freelance :</span>
+                      Available
+                    </li>
+    
+                  </ul> 
+                  <ul>
+                    <li>
+                      <span>Job Title :</span>
+                      UI/UX Designer
+                    </li>
+
+                    <li>
+                      <span>Location :</span>
+                      United States, US
+                    </li>
+
+                    <li>
+                      <span>E-mail :</span>
+                      example@gmail.com
+                    </li>
+    
+                  </ul> 
+                </div>
+              </div>
+                <button href="#" class="cv" >Download CV <i class="fa-solid fa-download"></i> </button>
+
+                <button href="#" class="hire" >Hire Me  <i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //////////////// Section  Our-Service //////////////// -->
+    <section id="our-service" >
+      <div class="container">
+        <h2 class="h2" >Our Services</h2>
+        <div class="row">
+          <div class="service-item">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>UI/UX DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci.</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fa-solid fa-code"></i>
+            <h3>APP DEVELOPMENT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci.</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>PRODUCT DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci.</p>
+          </div>
+
+          <div class="service-item">
+            <i class="fa-solid fa-gears"></i>
+            <h3>UI/UX DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //////////////// Section  Portfolio //////////////// -->
+    <section id="portfolio" >
+      <h2 class="h2" >Our Portfolio</h2>
+      <div class="porto_links">
+        <ul>
+          <li><a class="active"  type="button" data-filter="all">ALL</a></li>
+          <li><a type="button" data-filter=".category-a">GRAPHIC</a></li>
+          <li><a type="button" data-filter=".category-b">WEB DESIGN</a></li>
+          <li><a type="button" data-filter=".category-c">BRANDING</a></li>
+        </ul>
+      </div>
+      <div class="porto_items"> 
+        <div class="row">
+          <div class="mix item category-a" data-order="1">
+                <div class="">
+                  <div class="inner">
+                      <img src="assuts/images/1.jpg" alt="porto">
+                      <div class="layer">
+                        <i class="fa-solid fa-file-image"></i>
+                      </div>
+                    </div>
+                </div>
+          </div>
+
+          <div class="mix item category-b" data-order="2">
+              <div class="">
+                <div class="inner">
+                    <img src="assuts/images/2.jpg" alt="porto">
+                    <div class="layer">
+                      <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="mix item category-b category-c" data-order="3">
+              <div class="">
+                <div class="inner">
+                    <img src="assuts/images/3.jpg" alt="porto">
+                    <div class="layer">
+                      <i class="fa-solid fa-file-image"></i>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="mix item category-a category-d" data-order="4">
+              <div class="">
+                <div class="inner">
+                    <img src="assuts/images/4.jpg" alt="porto">
+                    <div class="layer">
+                      <i class="fa-solid fa-file-image"></i>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="mix item category-c category-d" data-order="5">
+            <div class="">
+              <div class="inner">
+                  <img src="assuts/images/5.jpg" alt="porto">
+                  <div class="layer">
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        <div class="mix item category-a category-d" data-order="6">
+          <div class="">
+            <div class="inner">
+                <img src="assuts/images/6.jpg" alt="porto">
+                <div class="layer">
+                  <i class="fa-solid fa-file-image"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </section> 
+    <!-- //////////////// Section  Counter //////////////// -->
+    <section id="counter" >
+        <div class="container">
+          <div class="row">
+            <div class="counter-item">
+              <i class="fa-solid fa-users"></i>
+              <h3>200</h3>
+              <h5>Team members</h5>
+            </div>
+
+            <div class="counter-item">
+              <i class="fa-solid fa-file"></i>
+              <h3>345</h3>
+              <h5>Complete Projects</h5>
+            </div>
+
+            <div class="counter-item">
+              <i class="fa-solid fa-cloud-arrow-down"></i>
+              <h3>1800</h3>
+              <h5>Files Downloaded</h5>
+            </div>
+
+            <div class="counter-item">
+              <i class="fa-solid fa-mug-saucer"></i>
+              <h3>1200</h3>
+              <h5>Lines Of Code</h5>
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>
+    <!-- //////////////// Section  feedback //////////////// -->
+    <section id="feedback" >
+        <div class="container">
+          <h2 class="h2" >Client's Feedback</h2>
+            <div class="person-feedback">
+              <div class="row">
+                  <img src="assuts/images/Client's Feedback (1).jpg" alt="person photo">
+                  <div class="person-info">
+                    <h3>Alex ander</h3>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i>United</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                      laudantium dignissimos debitis optio! Exercitationem adipisicing elit.</p>
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="dots">
+              <span class="first"></span>
+              <span class="second"></span>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////// Section  blogs //////////////// -->
+    <section id="blogs" >
+            <div class="container">
+              <h2 class="h2" >Our Blog</h2>
+                <div class="row">
+                      <div class="blog-box">
+                        <div class="blog">
+                              <iframe src="https://www.youtube.com/embed/-uleG_Vecis"></iframe>
+                              <div class="content">
+                                <span>23 November, 2015</span>
+                                <h3><a href="#">Web Design Blog Post</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                                  molestiae.</p>
+                                <a class="more" href="#">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                              </div>
+                        </div>
+                      </div> 
+
+                      <div class="blog-box">
+                        <div class="blog">
+                          <iframe src="https://www.youtube.com/embed/uVju5--RqtY"> </iframe>
+                              <div class="content">
+                                <span>20 April, 2018</span>
+                                <h3><a href="#">Development Blog Post</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                                  molestiae.</p>
+                                <a class="more" href="#">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                              </div>
+                        </div>
+                      </div> 
+
+                      <div class="blog-box">
+                        <div class="blog">
+                          <iframe src="https://www.youtube.com/embed/YpdEJgC4PGo"> </iframe>
+                              <div class="content">
+                                <span>17 May, 2017</span>
+                                <h3><a href="#">Full Width Blog Post</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                                  molestiae.</p>
+                                <a class="more" href="#">READ MORE<i class="fa-solid fa-arrow-right-long"></i></a>
+                              </div>
+                        </div>
+                      </div> 
+
+                </div>
+            </div>
+    </section>
+    <!-- //////////////// Section  contact //////////////// -->
+    <section id="contact" >
+        <div class="container">
+          <h2 class="h2" >Our Portfolio</h2>
+          <form>
+            <div class="row">
+                <div class="input-box left">
+                  <input type="text" name="user-name" placeholder="Name" required="">
+                </div>
+    
+                <div class="input-box right">
+                  <input type="email" name="user-email" placeholder="Email" required="">
+                </div>
+        
+                <div class="input-box">
+                  <input type="text" name="subject" placeholder="Subject" required="">
+                </div>
+      
+                <div class="input-box">
+                  <textarea name="message" id="message" cols="30" rows="5" placeholder="Message for me"></textarea>
+                </div>
+      
+      
+                <div class="input-box">
+                  <button type="submit" name="submit" >SEND MESSAGE</button>
+                </div>              
+            </div>
+          </form>
+        </div>
+    </section>
+    <!-- //////////////// Section  footer //////////////// -->
+    <footer id="footer">
+        <div class="container">
+          <div class="contact">
+            <div class="icon">
+              <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100026406188529"> <i class="fab fa-facebook"></i> </a>
+                <a href="https://github.com/Abdelghane3mar"> <i class="fab fa-github"></i> </a>
+                <a href=""> <i class="fab fa-twitter"></i> </a>
+                <a href=""> <i class="fab fa-google"></i> </a>
+              </div>
+            </div>
+            <p>Copyright ©2024 All rights reserved | This template is made with by <span>Al Developer Engineer</span>
+            </p>
+          </div>
+        </div>
+    </footer>
+
+    <span class="up"><i class="fa-solid fa-arrow-up"></i></span>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="assuts/js/mixitup.min.js" ></script>
+    <!-- Optional JavaScript -->
+    <script src="assuts/js/script.js"></script>
+  </body>
+</html>
